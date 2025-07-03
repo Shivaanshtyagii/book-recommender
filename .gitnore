@@ -1,0 +1,7 @@
+# Ignore virtual environment
+venv/
+
+# Ignore data and large artifact files
+artifacts/book_pivot.pkl
+*.pkl
+*.csv

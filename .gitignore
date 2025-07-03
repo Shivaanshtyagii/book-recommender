@@ -1,20 +1,10 @@
-# Ignore virtual environment
-venv/
+# Ignore everything in artifacts and data
+artifacts/*
+data/*
 
-# Ignore Python cache and logs
-__pycache__/
-*.py[cod]
-*.log
+# ...except these folders and target files
+!artifacts/
+!artifacts/*.pkl
 
-# Ignore Jupyter/IPython checkpoints
-.ipynb_checkpoints/
-
-# Ignore large data and artifact files
-data/
-artifacts/
-*.pkl
-*.csv
-
-# Ignore OS files
-.DS_Store
-Thumbs.db
+!data/
+!data/*.csv
